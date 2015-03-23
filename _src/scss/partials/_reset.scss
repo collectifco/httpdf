@@ -1,0 +1,68 @@
+// partials/_reset.scss
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-size: inherit; 
+  vertical-align: baseline;
+}
+
+section {
+  position: relative;
+  clear: both; }
+
+img, 
+picture {
+  max-width: 100%;
+  display: block; }
+
+input, 
+input[type="search"] {
+  font-size: inherit;
+  font-family: inherit; }
+
+input { margin-left: 0; max-width: 100%;}
+
+hr {
+  display: block;
+  clear: both; }
+
+a, 
+button, 
+.buttton { cursor: pointer; }
+
+ol, 
+ul { margin-left: 1.5rem; }
+
+::-webkit-input-placeholder { color: $lightgrey; }
+
+:-moz-placeholder { color: $lightgrey; }
+
+::-moz-placeholder { color: $lightgrey; }
+
+:-ms-input-placeholder {  color: $lightgrey; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

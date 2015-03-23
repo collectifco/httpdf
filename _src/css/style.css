@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem; }
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem; }
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-size: inherit;
+  vertical-align: baseline; }
+
+section {
+  position: relative;
+  clear: both; }
+
+img, picture {
+  max-width: 100%;
+  display: block; }
+
+input, input[type="search"] {
+  font-size: inherit;
+  font-family: inherit; }
+
+input {
+  margin-left: 0;
+  max-width: 100%; }
+
+hr {
+  display: block;
+  clear: both; }
+
+a, button, .buttton {
+  cursor: pointer; }
+
+ol, ul {
+  margin-left: 1.5rem; }
+
+::-webkit-input-placeholder {
+  color: #eeeeee; }
+
+:-moz-placeholder {
+  color: #eeeeee; }
+
+::-moz-placeholder {
+  color: #eeeeee; }
+
+:-ms-input-placeholder {
+  color: #eeeeee; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
