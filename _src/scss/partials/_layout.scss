@@ -104,13 +104,13 @@ input:focus {
 	outline: none;
 }
 
-::-webkit-input-placeholder { color: lighten($black, 30%); }
+::-webkit-input-placeholder { color: lighten($black, 30%);font-weight: normal; }
 
-:-moz-placeholder { color: lighten($black, 30%); }
+:-moz-placeholder { color: lighten($black, 30%);font-weight: normal; }
 
-::-moz-placeholder { color: lighten($black, 30%); }
+::-moz-placeholder { color: lighten($black, 30%);font-weight: normal; }
 
-:-ms-input-placeholder { color: lighten($black, 30%); }
+:-ms-input-placeholder { color: lighten($black, 30%);font-weight: normal; }
 
 .email {
 	@include span-columns(6);
@@ -131,4 +131,29 @@ input:focus {
 	background-color: $blue;
 	color: $white;
 	cursor: pointer;
+}
+
+.invert {
+	width: 25%;
+	display: block;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	border: 3px solid $white;
+	background-color: $blue;
+	color: $white;
+	text-align: center;
+	text-decoration: none;
+	@include media($mobile) {
+		width: 100%;
+	}
+}
+
+.invert:hover {
+	color: $blue;
+	background-color: $white;
 }
