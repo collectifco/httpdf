@@ -2,8 +2,8 @@
 
 $grid-columns		: 		12;
 $gutter				:		2rem;
-$max-width			:		rem(1280);
+$max-width			:		em(1280);
 $visual-grid		: 		false;
 $visual-grid-index	:		back;
 $visual-grid-color	: 		rgba(0, 0, 15, .5);
-$example			:		new-breakpoint(max-width 1280px);
+$mobile				:		new-breakpoint(max-width 480px 4);

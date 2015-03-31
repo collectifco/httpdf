@@ -38,6 +38,7 @@ $h4-margin-bottom: 1 * $h4-line;
 // The grid will stay aligned
 
 body {
+	font-family: 'input mono', monospace;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
@@ -68,4 +69,22 @@ h3 {
 	line-height: $h4-line-height;
 	margin-top: $h4-margin-top;
 	margin-bottom: $h4-margin-bottom;
+}
+
+header {
+	text-align: center;
+	span {
+		display: block;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+.site-title {
+	color: $blue;
+	font-size: $h1-font-size;
+	line-height: $h1-line-height;
+	text-transform: uppercase;
+	font-weight: 600;
 }

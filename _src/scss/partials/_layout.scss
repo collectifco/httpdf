@@ -1,1 +1,32 @@
 // partials/_layout.scss
+
+.wrap {
+	@include outer-container;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.hero {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-align: center;
+	background-color: $blue;
+	color: $white;
+	p {
+		margin-bottom: $h1-margin-bottom;
+	}
+}
+
+.col {
+	@include span-columns(6);
+	@include omega(2n);
+	@include media($mobile) {
+		@include span-columns(4);
+		@include omega(1n);
+	}
+}

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clctf Starter Theme</title>
+    <title>http/df</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2015 19:01:54 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 19:01:54 -0500</lastBuildDate>
+    <link>http://httpdf.com/</link>
+    <atom:link href="http://httpdf.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Mar 2015 22:46:45 -0500</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2015 22:46:45 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sun, 22 Mar 2015 12:29:41 -0500</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/03/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/03/22/welcome-to-jekyll.html</guid>
+        <link>http://httpdf.com/jekyll/update/2015/03/22/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://httpdf.com/jekyll/update/2015/03/22/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
