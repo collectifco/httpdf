@@ -29,6 +29,12 @@
 	p {
 		margin-bottom: $h1-margin-bottom;
 	}
+	h1 {
+		@include media($mobile) {
+			font-size: $h2-font-size;
+			line-height: $h2-line-height;
+		}
+	}
 	h2 {
 		color: $white;
 	}
@@ -90,27 +96,21 @@ input {
 	border: 3px solid $blue;
 	color: $blue;
 	font-weight: bold;
+	border-radius: 0;
+	-webkit-appearance: none;
 }
 
 input:focus {
 	outline: none;
 }
 
-::-webkit-input-placeholder {
-   color: lighten($black, 30%);
-}
+::-webkit-input-placeholder { color: lighten($black, 30%); }
 
-:-moz-placeholder {
-   color: lighten($black, 30%);  
-}
+:-moz-placeholder { color: lighten($black, 30%); }
 
-::-moz-placeholder { 
-   color: lighten($black, 30%);  
-}
+::-moz-placeholder { color: lighten($black, 30%); }
 
-:-ms-input-placeholder {  
-   color: lighten($black, 30%);  
-}
+:-ms-input-placeholder { color: lighten($black, 30%); }
 
 .email {
 	@include span-columns(6);
