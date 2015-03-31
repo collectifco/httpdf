@@ -10,6 +10,7 @@
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	@include row;
+	height: auto;
 }
 
 .section-detail {
@@ -68,6 +69,66 @@
 	@include span-columns(12);
 }
 
+.signup {
+	@include span-columns(12);
+}
+
 .question {
 	margin-bottom: 1rem;
+}
+
+.mc-field-group {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+input {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	border: 3px solid $blue;
+	color: $blue;
+	font-weight: bold;
+}
+
+input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: lighten($black, 30%);
+}
+
+:-moz-placeholder {
+   color: lighten($black, 30%);  
+}
+
+::-moz-placeholder { 
+   color: lighten($black, 30%);  
+}
+
+:-ms-input-placeholder {  
+   color: lighten($black, 30%);  
+}
+
+.email {
+	@include span-columns(6);
+	@include shift(2);
+	@include media($mobile) {
+		@include span-columns(4);
+		@include shift(0);
+		@include row;
+		margin-bottom: 1rem;
+	}
+}
+
+.button {
+	background-color: $white;
+}
+
+.button:hover {
+	background-color: $blue;
+	color: $white;
+	cursor: pointer;
 }
