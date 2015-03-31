@@ -6,4 +6,4 @@ $max-width			:		em(1280);
 $visual-grid		: 		false;
 $visual-grid-index	:		back;
 $visual-grid-color	: 		rgba(0, 0, 15, .5);
-$mobile				:		new-breakpoint(max-width 480px 4);
+$mobile				:		new-breakpoint(max-width 768px 4);

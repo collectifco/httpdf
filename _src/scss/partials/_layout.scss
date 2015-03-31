@@ -9,6 +9,14 @@
 .section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	@include row;
+}
+
+.section-detail {
+	@include span-columns(6);
+	@include media($mobile) {
+		@include span-columns(4);
+	}
 }
 
 .hero {
@@ -20,13 +28,46 @@
 	p {
 		margin-bottom: $h1-margin-bottom;
 	}
+	h2 {
+		color: $white;
+	}
 }
 
-.col {
-	@include span-columns(6);
-	@include omega(2n);
+.img-left {
+	@include span-columns(12);
+	img {
+		@include span-columns(6 of 12);
+	}
 	@include media($mobile) {
 		@include span-columns(4);
-		@include omega(1n);
+		img {
+			@include span-columns(4);
+		}
 	}
+}
+
+@include direction-context(right-to-left) {
+	.img-right {
+		@include span-columns(12 of 12);
+		img {
+			@include span-columns(6 of 12);
+		}
+		@include media($mobile) {
+			@include direction-context(left-to-right) {
+				img {
+					@include span-columns(4);
+					float: right;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+.faq {
+	@include span-columns(12);
+}
+
+.question {
+	margin-bottom: 1rem;
 }

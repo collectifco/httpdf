@@ -38,7 +38,9 @@ $h4-margin-bottom: 1 * $h4-line;
 // The grid will stay aligned
 
 body {
-	font-family: 'input mono', monospace;
+	font-family: 'Input Mono', monospace;
+	font-weight: normal;
+	font-style: normal;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
@@ -55,6 +57,7 @@ h2 {
 	line-height: $h2-line-height;
 	margin-top: $h2-margin-top;
 	margin-bottom: $h2-margin-bottom;
+	color: $blue;
 }
 
 h3 {
@@ -71,6 +74,12 @@ h3 {
 	margin-bottom: $h4-margin-bottom;
 }
 
+i {
+	font-family: 'Input Mono Ex Lt';
+	font-style: italic;
+	font-weight: normal;
+}
+
 header {
 	text-align: center;
 	span {
@@ -81,10 +90,14 @@ header {
 	}
 }
 
+a {
+	color: $blue;
+}
+
 .site-title {
 	color: $blue;
 	font-size: $h1-font-size;
 	line-height: $h1-line-height;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: bold;
 }
