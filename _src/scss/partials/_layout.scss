@@ -157,3 +157,16 @@ input:focus {
 	color: $blue;
 	background-color: $white;
 }
+
+.download-icon {
+	display: block;
+	margin-bottom: 0.5rem;
+	a {
+		text-decoration: none;
+	}
+	svg {
+		height: 24px;
+		top: 3px;
+		margin-right: 0.5rem;
+	}
+}
